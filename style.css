@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: Georgia;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://lh3.googleusercontent.com/p/AF1QipMiQXT-xO6YE_1BkToMWTTuDtrTBL1jp906XabA=w1080-h608-p-no-v0');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img1.wsimg.com/isteam/ip/3766a32b-bade-42dc-8a02-71ea50244b30/cfdca54b-d66d-4c6a-9b54-9d2890998669.jpeg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img1.wsimg.com/isteam/ip/3766a32b-bade-42dc-8a02-71ea50244b30/5140616c-d3b4-4ede-a4d7-b3e9db917abb.jpeg/:/rs=w:1240,h:620,cg:true,m/cr=w:1240,h:620');
+}
